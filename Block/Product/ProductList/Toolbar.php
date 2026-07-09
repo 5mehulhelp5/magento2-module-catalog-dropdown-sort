@@ -43,7 +43,7 @@ class Toolbar extends \Magento\Catalog\Block\Product\ProductList\Toolbar
      *
      * @param string $type
      * @param string $sort
-     * @return null
+     * @return \Magento\Framework\Phrase|null
      * @throws \Exception
      */
     protected function getSortTitleByType($type, $sort)
